@@ -19,7 +19,7 @@
 3. Crea un entorno virtual (opcional pero se recomienda):
 
      ```shell
-    python -m venv venv 
+    python -m venv --python=3.9.16 myenv
 
 4. Activa el entorno virtual (si se creó uno):
 
@@ -30,9 +30,11 @@
 
     En Linux/Mac:
      ```shell
-    source venv/bin/activate
+    source myenv/bin/activate
+    ```
 
 5. Instala las dependencias del proyecto utilizando el archivo requirements.txt:
 
      ```shell
+     python -m pip install --upgrade pip==23.0.1
      pip install -r requirements.txt
