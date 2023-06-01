@@ -25,12 +25,12 @@
 
     En Windows:
      ```shell
-    venv\Scripts\activate
+    .\myenv\Scripts\activate
      ```
 
     En Linux/Mac:
      ```shell
-    source myenv/bin/activate
+    source ./myenv/bin/activate
     ```
 
 5. Instala las dependencias del proyecto utilizando el archivo requirements.txt:
