@@ -2,7 +2,7 @@
 ## Requisitos del sistema
 
 - Python versión 3.9.16
-- Pip versión 23.0.1
+- PIP versión 23.0.1
 
 ## Instalación
 
@@ -26,6 +26,7 @@
     En Windows:
      ```shell
     venv\Scripts\activate
+     ```
 
     En Linux/Mac:
      ```shell
